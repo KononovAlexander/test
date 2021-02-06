@@ -1,11 +1,12 @@
 'use strict';
 
 let result = confirm('Играем?');
+let random = Math.round( Math.random() * 100);
 
 let gameBot = function(bool){
-    let userNum;
-    let number = Math.round( Math.random() * 100);
 
+    let userNum;
+    let number = random ;
     
 
     let game = function(a, b){
