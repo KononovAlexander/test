@@ -4,7 +4,8 @@ let result = confirm('Играем?');
 
 let gameBot = function(bool){
     let userNum;
-    let number = 87;
+    let number = Math.round( Math.random() * 100);
+
     
 
     let game = function(a, b){
